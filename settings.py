@@ -13,7 +13,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent.absolute()
 
 # Ruta al dataset (ajusta según tu estructura)
-DATASET_PATH = r"C:\Universidad\10 Semestre\Tarecda_Lidar\visualizarNubePuntos3D\dataset"  # Windows
+DATASET_PATH = "dataset"  
 
 # Carpeta con archivos LAS/LAZ
 ALS_PATH = os.path.join(DATASET_PATH, 'als')
