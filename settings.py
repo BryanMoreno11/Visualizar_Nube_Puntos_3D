@@ -17,13 +17,16 @@ DATASET_PATH = r"C:\Universidad\10 Semestre\Tarecda_Lidar\visualizarNubePuntos3D
 
 # Carpeta con archivos LAS/LAZ
 ALS_PATH = os.path.join(DATASET_PATH, 'als')
+ORTHO_PATH= os.path.join(DATASET_PATH, 'ortho')
 
 # Archivo LAZ específico a visualizar (nombre del archivo)
 # Cambia esto para visualizar diferentes archivos
-LAZ_FILE = "plot_01.las"  # Cambia por el nombre real de tu archivo
-
+PLOT_FILE="plot_01"  # Cambia por el nombre real de tu archivo
+LAZ_FILE = PLOT_FILE+".las"  # Cambia por el nombre real de tu archivo
+ORTHO_FILE = PLOT_FILE+".tif"  
 # Ruta completa al archivo
 LAZ_FILE_PATH = os.path.join(ALS_PATH, LAZ_FILE)
+ORTHO_FILE_PATH= os.path.join(ORTHO_PATH, ORTHO_FILE)
 
 # ============================================================
 # CONFIGURACIÓN DE VISUALIZACIÓN
