@@ -1,0 +1,5 @@
+# Librerías para procesamiento de nubes de puntos LiDAR
+laspy[lazrs,laszip]>=2.5.0
+numpy>=1.21.0
+plotly>=5.18.0
+matplotlib>=3.5.0
